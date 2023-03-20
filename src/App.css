@@ -1,0 +1,52 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.border-green {
+  border: 1px solid green;
+}
+
+.border-radius-5 {
+  border-radius: 15px;
+}
+
+.bg-green {
+  background-color: green;
+}
+
+.bg-grey {
+  background-color: lightgrey;
+}
+
+.m-bottom-30 {
+  margin-bottom: 30px;
+}
+
+.p-block-5 {
+  padding-block: 5px;
+}
+
+.p-bottom-20 {
+  padding-bottom: 20px;
+}
+
+.p-inline-10 {
+  padding-inline: 10px;
+}
+
+.t-decoration-none {
+  text-decoration: none;
+}
+
+.text-white {
+  color: white;
+}

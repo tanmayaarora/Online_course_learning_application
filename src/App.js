@@ -5,6 +5,7 @@ import JavaIntroduction from "./components/Java/JavaIntroduction";
 import JavascriptIntroduction from "./components/Javascript/JavascriptIntroduction";
 import PythonGettingStarted from "./components/Python/PythonGettingStarted/PythonGettingStarted";
 import PythonIntroduction from "./components/Python/PythonIntroduction/PythonIntroduction";
+import PythonVariableNames from "./components/Python/PythonVariables/PythonVariableNames";
 import PythonVariables from "./components/Python/PythonVariables/PythonVariables";
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
             <Route exact path="/js-intro" Component={JavascriptIntroduction} />
             <Route exact path="/python-getstarted" Component={PythonGettingStarted} />
             <Route exact path="/python-intro" Component={PythonIntroduction} />
+            <Route exact path="/python-variables-names" Component={PythonVariableNames} />
             <Route exact path="/python-variables" Component={PythonVariables} />
           </Routes>
         </Router>

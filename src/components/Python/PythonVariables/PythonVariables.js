@@ -18,6 +18,14 @@ const PythonVariables = () => {
             <div>String variables can be declared either by using single or double quotes</div>
             <h4>Case-Sensitive</h4>
             <div className="m-bottom-30">Variable names are case-sensitive.</div>
+            <div className="m-bottom-30">
+                <a href="/python-getstarted" className="bg-green text-white m-inline-15rem p-block-5 p-inline-10 border-green border-radius-5 t-decoration-none">
+                    Previous
+                </a>
+                <a href="/python-variables-names" className="bg-green text-white m-inline-15rem p-block-5 p-inline-10 border-green border-radius-5 t-decoration-none">
+                    Next
+                </a>
+            </div>
         </div>
     );
 }

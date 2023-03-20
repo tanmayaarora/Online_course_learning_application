@@ -13,7 +13,7 @@ const PythonVariables = () => {
             <h4>Casting</h4>
             <div>If you want to specify the data type of a variable, this can be done with casting.</div>
             <h4>Get the Type</h4>
-            <div>You can get the data type with the <code className="bg-grey">type()</code> function.</div>
+            <div>You can get the data type with the <code className="bg-grey text-danger">type()</code> function.</div>
             <h4>Single or Double Quotes?</h4>
             <div>String variables can be declared either by using single or double quotes</div>
             <h4>Case-Sensitive</h4>

@@ -3,8 +3,8 @@ import './App.css';
 import Home from './components/Home/Home';
 import JavaIntroduction from "./components/Java/JavaIntroduction";
 import JavascriptIntroduction from "./components/Javascript/JavascriptIntroduction";
-import PythonGettingStarted from "./components/Python/PythonGettingStarted";
-import PythonIntroduction from "./components/Python/PythonIntroduction";
+import PythonGettingStarted from "./components/Python/PythonGettingStarted/PythonGettingStarted";
+import PythonIntroduction from "./components/Python/PythonIntroduction/PythonIntroduction";
 import PythonVariables from "./components/Python/PythonVariables/PythonVariables";
 
 function App() {

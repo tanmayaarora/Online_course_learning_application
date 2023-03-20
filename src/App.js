@@ -3,6 +3,7 @@ import './App.css';
 import Home from './components/Home/Home';
 import JavaIntroduction from "./components/Java/JavaIntroduction";
 import JavascriptIntroduction from "./components/Javascript/JavascriptIntroduction";
+import PythonGettingStarted from "./components/Python/PythonGettingStarted";
 import PythonIntroduction from "./components/Python/PythonIntroduction";
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
             <Route exact path="/" Component={Home} />
             <Route exact path="/java-intro" Component={JavaIntroduction} />
             <Route exact path="/js-intro" Component={JavascriptIntroduction} />
+            <Route exact path="/python-getstarted" Component={PythonGettingStarted} />
             <Route exact path="/python-intro" Component={PythonIntroduction} />
           </Routes>
         </Router>

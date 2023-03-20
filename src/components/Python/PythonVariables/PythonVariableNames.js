@@ -13,7 +13,17 @@ const PythonVariableNames = () => {
                     <li>A variable name cannot be any of the Python keywords.</li>
                 </ul>
             </div>
-            <div className="bg-yellow large-text-size p-block-30">Remember that variable names are case-sensitive</div>
+            <div className="bg-yellow large-text-size m-bottom-30 p-block-30">
+                Remember that variable names are case-sensitive
+            </div>
+            <div>
+                <a href="/python-variables" className="bg-green text-white m-inline-15rem p-block-5 p-inline-10 border-green border-radius-5 t-decoration-none">
+                    Previous
+                </a>
+                <a href="/python-variables-global" className="bg-green text-white m-inline-15rem p-block-5 p-inline-10 border-green border-radius-5 t-decoration-none">
+                    Next
+                </a>
+            </div>
         </div>
     );
 }

@@ -79,6 +79,10 @@
   text-decoration: none;
 }
 
+.text-danger {
+  color: red;
+}
+
 .text-white {
   color: white;
 }

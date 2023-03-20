@@ -1,4 +1,5 @@
 import AboutPython from "./AboutPython";
+import PythonExample1 from "./PythonExample1";
 import PythonFacts from "./PythonFacts";
 import PythonSyntax from "./PythonSyntax";
 import PythonUses from "./PythonUses";
@@ -18,6 +19,7 @@ const PythonIntroduction = () => {
             <PythonFacts/>
             <h4>Python Syntax compared to other programming languages</h4>
             <PythonSyntax/>
+            <PythonExample1/>
         </div>
     );
 }

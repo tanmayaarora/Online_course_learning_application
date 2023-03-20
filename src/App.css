@@ -27,6 +27,10 @@
   background-color: lightgrey;
 }
 
+.bg-white{
+  background-color: white;
+}
+
 .m-bottom-30 {
   margin-bottom: 30px;
 }
@@ -41,6 +45,10 @@
 
 .p-inline-10 {
   padding-inline: 10px;
+}
+
+.p-inline-25rem {
+  padding-inline: 25rem;
 }
 
 .t-decoration-none {

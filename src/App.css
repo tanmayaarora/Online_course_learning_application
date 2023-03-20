@@ -39,6 +39,10 @@
   border-radius: 15px;
 }
 
+.d-inline-block {
+  display: inline-block;
+}
+
 .large-text-size {
   font-size: large;
 }
@@ -47,8 +51,40 @@
   margin-bottom: 30px;
 }
 
+.m-inline-1rem {
+  margin-inline: 1rem;
+}
+
 .m-inline-15rem {
   margin-inline: 15rem;
+}
+
+.m-left-5rem {
+  margin-left: 5rem;
+}
+
+.m-right-4rem {
+  margin-right: 4rem;
+}
+
+.m-right-9rem {
+  margin-right: 9rem;
+}
+
+.m-right-16to17rem {
+  margin-right: 16.5rem;
+}
+
+.m-right-18to19rem {
+  margin-right: 18.5rem;
+}
+
+.m-top-10 {
+  margin-top: 10px;
+}
+
+.m-top-20 {
+  margin-top: 20px;
 }
 
 .medium-text-size {
